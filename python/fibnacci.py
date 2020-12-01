@@ -1,3 +1,4 @@
+import os
 def fib(x):
     if(x==0):
         return 0
@@ -10,3 +11,5 @@ y= int(input())
 
 for x in range(y):
     print(fib(x))
+
+os.system("pause")
