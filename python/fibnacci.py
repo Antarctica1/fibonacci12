@@ -6,7 +6,7 @@ def fib(x):
     if(x>=2):
         return fib(x-2)+fib(x-1)
 
-y=40
+y=20
 
 for x in range(y):
     print(fib(x))
